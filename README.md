@@ -1,9 +1,8 @@
 # Android-ZeroWidthFix
 修复安卓零宽字符 (U+200D) 路径绕过漏洞，通过 SELinux 规则 / Android/data 目录访问安全.
 
-[![Image](https://img.shields.io/badge/Android-8.0+-brightgreen)]
-
-[![Image](https://img.shields.io/badge/KSU/Magisk-Compatible-blue)]
+![Image](https://img.shields.io/badge/Android-8.0+-brightgreen)
+![Image](https://img.shields.io/badge/KSU/Magisk-Compatible-blue)
 
 [![Version](https://img.shields.io/github/v/release/GeekerNaviga/Android-ZeroWidthFix?logo=github)](https://github.com/GeekerNaviga/Android-ZeroWidthFix/releases)
 
