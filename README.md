@@ -1,8 +1,11 @@
 # Android-ZeroWidthFix
 修复安卓零宽字符 (U+200D) 路径绕过漏洞，通过 SELinux 规则 / Android/data 目录访问安全.
-[[![Image](b862550d-ea78-4ee2-8bf4-1f43dd438789)](https://source.android.com/)](https://source.android.com/)
 
-[[![Image](250a2a4f-6048-4202-beed-4db9d14d5426)](https://github.com/tiann/KernelSU)](https://github.com/tiann/KernelSU)
+![Image](https://img.shields.io/badge/Android-8.0+-brightgreen)
+
+![Image](https://img.shields.io/badge/KSU/Magisk-Compatible-blue)
+
+[![Version](https://img.shields.io/github/v/release/GeekerNaviga/Android-ZeroWidthFix?logo=github)](https://github.com/GeekerNaviga/Android-ZeroWidthFix/releases)
 
 Android-ZeroWidthFix 是一款基于 SELinux 强制访问控制的安卓安全加固模块，核心用于修复**零宽字符（U+200D）路径绕过漏洞**，从内核层面阻断恶意应用通过隐形字符构造路径、越权访问 `/Android/data` 等应用私有目录的行为。
 
